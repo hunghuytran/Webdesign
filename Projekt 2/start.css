@@ -1,0 +1,254 @@
+﻿/* En grundläggande html5 css */
+
+
+body {
+				font-family:  "Verdana", Arial, Helvetica, sans-serif; 
+                background: url(images.jpg);
+                background-repeat: no-repeat;	
+}
+#sidan {
+				width:700px;
+				padding:2px;
+                margin:auto;		
+				border:1px solid transparent;
+				border-image: url(test.png) 30 30 round;				
+}
+header {
+				font-family:"Palace Script MT";
+				color:#006400;
+				text-align:center;
+                font-size:100px;
+				
+}
+
+
+nav {
+				height:35px;
+				background-color:white;	
+				padding:2px;
+                margin:2px;             
+				border:1px solid transparent;
+				border-image: url(test.png) 30 30 round;	           				
+}
+article ul {
+				padding:1px;
+                list-style-type:none;
+				margin:1px;
+}
+article ul li {
+				border:1px solid transparent;
+				border-image: url(test.png) 30 30 round;
+				background:white;
+				margin-top:1px;
+				margin-bottom:1px;
+				text-transform:capitalize;
+			    text-align:center;
+				border-radius:5px 5px 5px 5px;
+}
+article ul li:hover {
+				background-color: white;
+                transform: translate(16px,1px);
+}
+article ul li a {	    
+                color:#006400;
+				font-size:12px;
+				text-decoration:none;
+				display:block;   
+}
+article ul li a:hover {
+				color: #006400;
+				background-color: white;
+}
+
+#innehall {
+				height: 220px;
+				width:98,5%;
+				background-color:white;
+				padding:2px;
+                margin:2px;             
+				border:2px ridge;
+				border-color:#ADFF2F;		
+}
+article {
+				margin-top:1px;
+
+			
+}
+article.helsida	{
+				width:100%;
+}
+section {
+				width:90%;
+				margin: 5px;
+				padding:5px;
+				background-color:#9E9E9E ;
+				border-radius:12px 12px 12px 12px;
+
+}
+aside {
+				height: 195px;
+				width:98,5%;
+				background-color:white;
+				padding:2px;
+                margin:2px;             
+				border:2px ridge;
+				border-color:#ADFF2F;
+				font-size:12px;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 98,5%; /* Chrome, Safari, Opera */
+    -moz-column-gap: 98,5% /* Firefox */
+    column-gap: 98,5%;
+    -webkit-column-rule:  2px ridge #ADFF2F; /* Chrome, Safari, Opera */
+    -moz-column-rule:  2px ridge #ADFF2F; /* Firefox */
+    column-rule:  2px ridge #ADFF2F;				
+}
+footer {
+
+				color:#006400;
+				height:40px;;
+				background-color:white;
+				text-align:center;
+				font-size:10px;
+				padding:2px;
+                margin:2px;             
+}
+
+
+
+h1 {
+				margin:6px;
+				padding:6px;
+				font-size: x-large;
+				font-weight: bold;
+}
+h2 {
+				margin: 5px;
+				padding: 5px;
+				font-size: large;
+				font-weight: bold;
+}
+h3 {
+				font-size: 12px;
+				margin: 4px;
+				padding: 4px;
+				font-weight:bold;
+}
+h4 {
+				margin: 2px;
+				padding: 2px;
+}
+p {
+				margin:2px;
+				padding:2px;
+}
+img {
+				margin: 2px;
+				padding: 2px;
+}
+table {           width: 100%;
+}
+
+iframe {
+                width: 550px;
+				height: 550px;
+				float:left;
+border:1px solid transparent;
+				border-image: url(test.png) 30 30 round;
+				margin-left:20px;
+				position:relative;
+				top:-10px;
+				right:13px;
+}				
+.grid		{
+				width: 100%;
+}
+.col-1-4	{
+				width: 25%;
+				float: left;
+}
+.col-1-3	{
+				width: 25%;
+				float: left;
+}
+.col-1-2	{
+				width: 50%;
+				float: left;
+}
+.undertext {
+                text-align:center;
+				font-family:"Palace Script MT";
+				color:#006400;
+				font-size:35px;
+				
+}
+.column-1 {     width: 20%;
+               float: left;
+}
+.column-2 {
+				font-size:12px;
+			   float: left;
+               width: 40%;
+			   text-align:left;
+}
+.column-3 {     
+			   position:relative;
+			   top: -30px;
+			   font-size:12px;
+			   float: left;
+               width: 40%;
+			   text-align:left;
+}
+.intro { position:absolute;
+top:440px;
+right:460px;
+         }
+.desc {
+    background:white;
+	border:solid 2px;
+	border-radius:20px;
+	text-align: center;
+    width: 120px;
+	font-weight:bold;
+}
+.stickman {position:absolute;
+top:102px;
+right:102px;
+color:#006400;
+}
+table {
+				padding:2px;
+                margin:15px;             
+				text-align: left;
+				border:1px solid transparent;
+				border-image: url(test.png) 30 30 round;
+}
+td {								
+ border:1px solid grey;
+ 
+ 
+				}
+
+.borderimag { 	
+                background:white;
+				float:left;
+				margin-top:35px;
+				margin-left:60px;
+				}
+.column-4 {
+				font-size:12px;
+			   float: left;
+               width: 40%;
+			   text-align:right;
+}
+.column-5 {     
+			   position:relative;
+			   top: -30px;
+			   font-size:12px;
+			   float: left;
+               width: 40%;
+			   text-align:right;
+}
+.posa {position:relative;
+right:-65px;

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project</title>
+
+    <!-- Bootstrap -->
+    <!-- Lokal Bootstrap <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+	<link href="boot/css/bootstrap.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Project X2</a>	  
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+		  <li>				<svg width="100" height="50">
+  <circle cx="10" cy="25" r="10" fill="white" >
+  <animate attributeName="cx" attributeType="XML" 
+begin="2s" dur="20s" from="10" to="75" />
+<animate attributeName="cx" attributeType="XML" 
+begin="21s" dur="20s" from="75" to="10" />
+</circle> </li>
+            <li class="active"><a href="#"><span class="glyphicon glyphicon-pencil"></span> Home</a></li>
+            <li><a href="location.html"><span class="glyphicon glyphicon-pushpin"></span> Location</a></li>
+            <li><a href="report.html"><span class="glyphicon glyphicon-paperclip"></span> WReport</a></li>
+            </li>
+			<li>
+				<ol class="breadcrumb">
+	<div class="btn-group">
+	<button type="button" class="btn btn-primary">Recommended sites</button>
+	<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="http://www.9gag.com">9GAG</a></li>
+    <li><a href="http://www.facebook.com">Facebook</a></li>
+    <li><a href="http://www.cnn.com">CNN</a></li>
+  </ul> 
+</div>
+	</ol>
+	</li>
+			<li>
+
+</li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+	
+<canvas id="myCanvas" width="800" height="100">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(180,25,8,0,2*Math.PI);
+ctx.fillStyle="red";
+ctx.fill();
+ctx.closePath();
+ctx.beginPath();
+ctx.arc(250,15,15,0,2*Math.PI);
+ctx.fillStyle="blue";
+ctx.fill();
+ctx.closePath();
+ctx.beginPath();
+ctx.arc(325,35,26,0,2*Math.PI);
+ctx.fillStyle="yellow";
+ctx.fill();
+ctx.closePath();
+ctx.beginPath();
+ctx.arc(420,50,40,0,2*Math.PI);
+ctx.fillStyle="green";
+ctx.fill();
+ctx.closePath();
+ctx.beginPath();
+</script>
+	<div class="container-fluid">
+    <div class="jumbotron">
+	<h2><span class="glyphicon glyphicon-star"></span>Random movie quotes</h2>
+	    <div class="container">
+      <blockquote>
+	  <h3><small>Don't talk like one of them. You're not! Even if you'd like to be. To them, you're just a freak, like me! They need you right now, but when they don't, they'll cast you out, like a leper! You see, their morals, their code, it's a bad joke. Dropped at the first sign of trouble. They're only as good as the world allows them to be. I'll show you. When the chips are down, these... these civilized people, they'll eat each other. See, I'm not a monster. I'm just ahead of the curve.</small></h3>
+      </blockquote>
+	    <footer>The Joker (The Dark Knight, 2008)</footer>
+    </div>
+	    <div class="container">
+      <blockquote>
+	  
+        <h3><small>You wanna fuck with me? Okay. You wanna play rough? Okay. Say hello to my little friend!</small></h3>
+      </blockquote>
+	          <footer>Tony Montana (Scarface, 1983)</footer>
+	  	    <div class="container">
+      <blockquote>
+	  
+        <h3><small>I'm gonna make him an offer he can't refuse. Okay? I want you to leave it all to me. Go on, go back to the party.</small></h3>
+      </blockquote>
+	          <footer>Don Corleone (The Godfather, 1972)</footer>
+    </div>
+	 <div class="container">
+      <blockquote>
+	  
+        <h3><small>Fasten your seatbelts. It's going to be a bumpy night</small></h3>
+      </blockquote>
+	          <footer>Margo Channing (All About Eve, 1950)</footer>
+    </div>
+		 <div class="container">
+      <blockquote>
+	  
+        <h3><small>May the force be with you</small></h3>
+      </blockquote>
+	          <footer>Han Solo (Star Wars, 1977)</footer>
+    </div>
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Lokal Bootstrap <script src="bootstrap/js/bootstrap.min.js"></script> -->
+	<script src="boot/js/bootstrap.min.js"></script>
+  </body>
+</html>

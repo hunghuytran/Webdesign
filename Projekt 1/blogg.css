@@ -1,0 +1,189 @@
+﻿/* En grundläggande html5 css */
+
+
+body {
+				font-family:  "Tahoma", Arial, Helvetica, sans-serif; 
+				background-color: white;
+                margin: auto;
+}
+#sidan {
+				height:800px;
+				width:600px;
+				margin:auto;
+}
+header {
+                height: 100px;
+				width: 120px;
+				background-color:#1E90FF;
+				font-family: "Lucida Console";
+				text-align:center;
+				text-transform: uppercase;
+				color: #A7C942;
+				margin-left: 5px;
+				border-radius:0px 20px 20px 20px;	
+				right: -380px;
+				position: relative;
+			
+}
+
+
+nav {
+				height:40px;
+}
+nav ul {
+    position:absolute;
+	right: 36%;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li:hover {
+			    background-color: #A7C942;
+}
+nav ul li a {	        
+    display: block;
+    width: 140px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #98bf21;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li a:hover {	    
+                 background-color: #7A991A;
+}
+nav ul li a:visited{ color:black;
+                 text-decoration:none;
+}
+#innehall {
+				height: 250px;
+				background-color:white;
+}
+article {
+				position: relative;
+				z-index: 1;
+			    font-family: "Lucida Console";
+				text-align:left;
+				text-transform: uppercase;
+				color: #6A80AD;
+				right: -150px;
+				margin: 2px;
+				width:50%;
+				padding:1px;
+				background-color:#00CED1;
+				border-radius:12px 0px 0px 12px;
+}
+article:hover {	background-color: white;
+}
+section {
+				text-transform: none;
+				width:99%;
+				margin: 2px;
+				padding:10px;
+				background-color:white ;
+				border-radius:12px 0px 12px 12px;
+				border-style: outset;
+				border-width: 3px;
+
+}
+aside {			font-family: "Lucida Console";
+				text-align:left;
+				text-transform: uppercase;
+				color: #6A80AD;
+				float:left;
+				width:50%;
+				background-color:#7FFFD4;
+				border-radius:12px 0px 0px 12px;
+				
+}
+aside:hover {	background-color: white;
+}
+footer {
+				clear:both;
+				background-color:#ADFF2F;
+				text-align:center;
+				position: relative;
+				top: 300px;
+				margin:0px;
+				padding:0px;
+				border-radius:12px 12px 12px 12px;
+				font-family: "Lucida Console";
+				text-transform: uppercase;
+				color: white;
+				width: 245px;
+				height: 70px;
+				right: 100px;
+}
+
+
+
+h1 {
+				margin:6px;
+				padding:6px;
+				font-size: x-large;
+				font-weight: bold;
+}
+h2 {
+				margin: 5px;
+				padding: 5px;
+				font-size: large;
+				font-weight: bold;
+}
+h3 {
+				font-size: medium;
+				margin: 4px;
+				padding: 4px;
+}
+h4 {
+				margin: 2px;
+				padding: 2px;
+}
+p {
+				margin:2px;
+				padding:2px;
+}
+img {
+				margin: 4px;
+				padding: 3px;
+				position: absolute;
+				top: 150px;
+				z-index: 1;
+				border: 2px solid;
+				border-color: #00CED1;
+				
+}
+
+.grid		{
+				width: 100%;
+}
+.copy	{
+				width: 30%;
+				float: left;
+}
+.webmaster	{
+				width: 35%;
+}
+.datte	{
+				width: 35%;
+}
+.semester	{
+				position:relative;
+				top: -150px;
+				right: 70px;
+}
+.lunch	{
+				position:relative;
+				top: 130px;
+				right: 70px;
+}
+.beach	{
+				position:relative;
+				top: -50px;
+				right: -500px;
+}

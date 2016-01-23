@@ -1,0 +1,172 @@
+﻿/* En grundläggande html5 css */
+
+
+body {
+				font-family:  "Tahoma", Arial, Helvetica, sans-serif; 
+				background-image: url("template.jpg");				    
+}
+#sidan {
+				height:800px;
+				width:600px;
+				margin:auto;
+}
+header {
+                height: 100px;
+				float: right;
+				background-color:white;
+				font-family: Lucida Console;
+				text-align:center;
+				text-transform: uppercase;
+				color: #A7C942;
+				margin-left: 5px;
+				border-radius:0px 20px 20px 20px;	
+                border-style: solid;
+                border-color: #A7C942;
+			
+}
+
+
+nav {
+				height:40px;
+	
+}
+nav ul {
+				list-style-type:none;
+				padding:0px;
+				margin:0px;
+                float:right;
+}
+nav ul li {
+				float:left;
+				display: block;
+				padding-left: 10px;
+				font-family: Lucida Console;
+				text-transform: uppercase;
+				text-decoration: none;
+				border-radius:20px 20px 20px 20px;
+}
+nav ul li:hover {
+			    background-color: #A7C942;
+}
+nav ul li a {	    color: #6A80AD;
+				text-decoration:none;
+				font-weight:bold;
+}
+nav ul li a:hover {	color: white;
+				text-decoration:none;
+				font-weight:bold;
+}
+nav ul li a:visited{ color:red;
+                 text-decoration:none;
+}
+#innehall {
+				height: 250px;
+				background-color:white;
+}
+section {
+				text-transform: none;
+				width:99%;
+				margin: 2px;
+				padding:10px;
+				background-color:white ;
+				border-radius:12px 0px 12px 12px;
+				border-style: outset;
+				border-width: 3px;
+
+}
+aside {			font-family: Lucida Console;
+				text-align:left;
+				text-transform: uppercase;
+				color: #6A80AD;
+				float:left;
+				width:50%;
+				background-color:#7FFFD4;
+				border-radius:12px 0px 0px 12px;
+				
+}
+aside:hover {	background-color: white;
+}
+footer {
+				clear:both;
+				background-color:#ADFF2F;
+				text-align:center;
+				position: relative;
+				top: 100px;
+				margin:0px;
+				padding:0px;
+				border-radius:12px 12px 12px 12px;
+				font-family: Lucida Console;
+				text-transform: uppercase;
+				color: white;
+				width: 245px;
+				height: 70px;
+}
+
+
+
+h1 {
+				margin:6px;
+				padding:6px;
+				font-size: x-large;
+				font-weight: bold;
+}
+h2 {
+				margin: 5px;
+				padding: 5px;
+				font-size: large;
+				font-weight: bold;
+}
+h3 {
+				font-size: medium;
+				margin: 4px;
+				padding: 4px;
+}
+h4 {
+				margin: 2px;
+				padding: 2px;
+}
+p {
+				margin:2px;
+				padding:2px;
+}
+img {
+				margin: 4px;
+				padding: 3px;
+				position: absolute;
+				top: 150px;
+				z-index: 1;
+}
+
+.grid		{
+				width: 100%;
+}
+.copy	{
+				width: 30%;
+				float: left;
+}
+.webmaster	{
+				width: 35%;
+}
+.datte	{
+				width: 35%;
+}
+.logo	{
+				position:relative;
+				right: 0px;
+}
+.logo2	{
+				position:relative;
+				right: -60px;
+}
+.logo3	{
+				position:relative;
+				right: -120px;
+}
+.logo4	{
+				position:relative;
+				right: -180px;
+}
+.logo5	{
+				position:relative;
+				right: -240px;
+}
